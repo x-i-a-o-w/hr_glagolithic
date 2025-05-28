@@ -1,0 +1,63 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "rs(latin)"
+
+    name[Group1] = "Glagolitic";
+
+	key <AD01>  {[ U2C53,U2C23  ]} ;
+	key <AD03>  {[ U2C35,U2C05  ]} ;
+	key <AD04>  {[ U2C43,U2C13  ]} ;
+	key <AD05>  {[ U2C45,U2C15  ]} ;
+	key <AD06>  {[ U2C38,U2C08  ]} ;
+	key <AD07>  {[ U2C46,U2C16  ]} ;
+	key <AD08>  {[ U2C3B,U2C0B  ]} ;
+	key <AD09>  {[ U2C41,U2C11  ]} ;
+	# key <AD09>  {[ U2C49,U2C19  ]} ; #OTU PUT ON ALT_GR
+	key <AD10>  {[ U2C42,U2C12  ]} ;
+	key <AD11>  {[ U2C4E,U2C1E  ]} ;
+	key <AD12>  {[ U2C3C,U2C0C  ]} ;
+    
+    key <AC01>  {[ U2C30,U2C00  ]} ;
+	key <AC02>  {[ U2C44,U2C14  ]} ;
+	key <AC03>  {[ U2C34,U2C04  ]} ;
+	key <AC04>  {[ U2C47,U2C17  ]} ;
+	key <AC05>  {[ U2C33,U2C03  ]} ;
+	key <AC06>  {[ U2C48,U2C18  ]} ;
+	key <AC07>  {[ U2C3C,U2C0C  ]} ;
+	key <AC08>  {[ U2C3D,U2C0D  ]} ;
+	key <AC09>  {[ U2C3E,U2C0E  ]} ;
+	key <AC10>  {[ U2C4D,U2C1D  ]} ;
+	key <AC11>  {[ U2C37,U2C07  ]} ; 
+	key <AC12>  {[ U2C36,U2C06  ]} ;
+	
+	key <AD01>  {[ U2C56,U2C26  ]} ;
+	# key <AB02>  {[ U2C51,U2C21  ]} ; #JA PUT ON ALT_GR
+	key <AB03>  {[ U2C4C,U2C1C  ]} ;
+	key <AB04>  {[ U2C32,U2C02  ]} ;
+	key <AB05>  {[ U2C31,U2C01  ]} ;
+	key <AB06>  {[ U2C40,U2C10  ]} ;
+	key <AB07>  {[ U2C3F,U2C0F  ]} ;
+
+	# to help with further decoding go to:
+	# https://www.unicode.org/charts/PDF/U2C00.pdf
+
+	# key <AD10>  {[ U2C39,U2C09  ]} ;
+	# key <AD11>  {[ U2C3A,U2C0A  ]} ;
+	# key <AD27>  {[ U2C4A,U2C1A  ]} ;
+	# key <AD28>  {[ U2C4B,U2C1B  ]} ;
+	# key <AD32>  {[ U2C4F,U2C1F  ]} ;
+	# key <AD33>  {[ U2C50,U2C20  ]} ;
+	# key <AD35>  {[ U2C52,U2C22  ]} ;
+	# key <AD37>  {[ U2C54,U2C24  ]} ;
+	# key <AD38>  {[ U2C55,U2C25  ]} ;
+	# key <AD40>  {[ U2C57,U2C27  ]} ;
+	# key <AD41>  {[ U2C58,U2C28  ]} ;
+	# key <AD42>  {[ U2C59,U2C29  ]} ;
+	# key <AD43>  {[ U2C5A,U2C2A  ]} ;
+	# key <AD44>  {[ U2C5B,U2C2B  ]} ;
+	# key <AD45>  {[ U2C5C,U2C2C  ]} ;
+	# key <AD46>  {[ U2C5D,U2C2D  ]} ;
+	# key <AD47>  {[ U2C5E,U2C2E  ]} ;
+	# key <AD48>  {[ U2C5F,U2C2F  ]} ;
+    include "level3(ralt_switch)"  // AltGr for uppercase
+};
